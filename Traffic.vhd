@@ -46,7 +46,7 @@ begin
 
 clk_div: clock_div
 Generic map(
-    N => 50
+    N => 50    --Division value is set to lower number in order to simulate faster
 )
 Port map(
     clk => clk,
